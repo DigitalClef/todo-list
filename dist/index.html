@@ -5,8 +5,36 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <script defer src="./main.js"></script>
     </head>
     <body>
-        <div id='content'></div>
+        <div id="content">
+            <h1 id="header">Things you don't want to do but gotta</h1>
+            <div id="projects">
+                <h2>Projects</h2>
+                <button>Add</button>
+                <ul id="project-list">
+                    <li>Default</li>
+                </ul>
+            </div>
+            <div id="new-project">
+                <h2>New Project</h2>
+                <input id="project-name" type="text" placeholder="Name">
+            </div>
+            <div id="tasks">
+                <h2>Tasks</h2>
+                <button>Add</button>
+                <ul id="task-list">
+                    
+                </ul>
+            </div>
+            <div id="new-task">
+                <h2>New Task</h2>
+                <input id="task-name" type="text" placeholder='Name'>
+                <input id="task-description" type="text" placeholder='Description'>
+                <label for="due-date">Due Date</label>
+                <input id="due-date" type="date" placeholder='name'>
+            </div>
+        </div>
     </body>     
 </html>
