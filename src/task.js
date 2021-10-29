@@ -5,6 +5,5 @@ function Task(name, description, priority) {
 }
 
 const addTask = new Task('Homework', 'Finish math problems 1-33 odd', 'HIGH');
-console.log(addTask);
 
 export {Task};

@@ -1,10 +1,10 @@
-function Project(name) {
-    this.name = name;
-}
+const projectName = document.querySelector('#project-name');
+const projectSubmit = document.querySelector('#project-submit');
+const newProject = document.querySelector('#new-project');
 
-let userInput = prompt('Enter task name');
-
-const addProject = new Project(userInput);
-console.log(addProject);
+projectSubmit.onclick = function() {
+    console.log(projectName.value);
+    newProject.reset();
+};
 
 export {Project};
