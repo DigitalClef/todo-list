@@ -8,34 +8,11 @@
         <script defer src="./main.js"></script>
     </head>
     <body>
-        <h1 id="header">Things you gotta do</h1>
         <div id="content">
-            <div id="projects">
-                <h2>Projects</h2>
-                <button>Add</button>
-                <ul id="project-list">
-                    <li>Default</li>
-                </ul>
-            </div>
-            <form id="new-project" onsubmit="return false;">
-                <h2>New Project</h2>
-                <input id="project-name" type="text" placeholder="Name" required>
-                <button id="project-submit" type="submit">Submit</button>
-            </form>
-            <div id="tasks">
-                <h2>Tasks</h2>
-                <button>Add</button>
-                <ul id="task-list">
-
-                </ul>
-            </div>
-            <form id="new-task">
-                <h2>New Task</h2>
-                <input id="task-name" type="text" placeholder='Name(required)' required>
-                <input id="task-description" type="text" placeholder='Description(optional)'>
-                <label for="due-date">Due Date</label>
-                <input id="due-date" type="date" placeholder='name'>
-                <button>Submit</button>
+            <header>Things you gotta do</header>
+            <form>
+                <input type="text" class="todo-input">
+                <button class="todo-button" type=
             </form>
         </div>
     </body>     
